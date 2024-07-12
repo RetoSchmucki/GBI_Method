@@ -1,0 +1,10 @@
+# Simulation
+
+To demonstrate and rigorously demonstrate the method use to compute the Grassland Butterfly Indicator which involve calculating collated abundance indices from multiple sites and estimate the population trend from a set of indicator species, the best option is to use simulated datasets that provide realistic data with known parameters. The simulation approach allows to assess methods' performance and enable to control individual parameters and conduct rigorous sensitivity analysis. This method provide useful insight into the method and better assess its power and limation.
+
+## Simple case
+In a first scenario, we will apply the method on a simple case where we have one univoltine species that is monitored over a 15-year period across 100 sites where the populations follow the same trend with know growth rate. To simulate butterfly count across sites and over multiple iteration, we will use the function developed by Collin Edwards and available in the R packages [butterflyGamSims](https://github.com/cbedwards/butterflyGamSims/tree/main)
+
+```{R}
+library(data.table)
+```

@@ -1,0 +1,12 @@
+project:
+  title: "GBI_METHOD"
+  output-dir: "documentation"
+  render:
+    - 2_butterfly_count_simulation.qmd
+  
+highlight-style: pygments
+
+format:
+  pdf:
+    linkcolor: blue
+

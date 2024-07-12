@@ -1,0 +1,8 @@
+---
+title: "Multispecies trends"
+author: Reto Schmucki et al.
+date: July 2024
+format:
+    pdf: 
+    docx:
+---
